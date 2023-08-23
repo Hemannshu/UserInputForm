@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Save the JSON string in local storage
         localStorage.setItem("userDetails", userDetailsJSON);
 
-        alert("User details saved to local storage.");
+        alert("Details Submitted");
 		location.reload();
     });
 });
